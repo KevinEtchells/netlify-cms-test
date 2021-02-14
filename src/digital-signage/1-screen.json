@@ -7,7 +7,11 @@
         "extension": "4043",
         "radio": "Security",
         "office": "Ground Floor"
-      }
+      },
+      "name": "DB",
+      "extension": "4043",
+      "radio": "Security",
+      "office": "Ground Floor"
     }
   ],
   "firstAiders": [
