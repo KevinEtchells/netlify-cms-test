@@ -9,5 +9,15 @@
         "office": "Ground Floor"
       }
     }
+  ],
+  "firstAiders": [
+    {
+      "firstAider": {
+        "name": "FA1",
+        "extension": "4054",
+        "radio": "N/A",
+        "office": "3M"
+      }
+    }
   ]
 }
