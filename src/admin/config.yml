@@ -11,47 +11,39 @@
     {
       "label": "-1 Screen",
       "name": "minus1Screen",
-      "folder": "src/digital-signage",
-      "create": true,
+      "folder": "src/_data",
+      "create": false,
       "extension": "json",
       "fields": [
         {
           "label": "Title",
           "name": "title",
-          "widget": "hidden",
+          "widget": "string",
           "default": "-1 Screen"
         },
         {
           "label": "Key Contacts",
           "name": "keyContacts",
           "widget": "list",
-          "field": {
-            "label": "Contact",
-            "name": "contact",
-            "widget": "object",
-            "fields": [
-              { "label": "Incident Control Officer", "name": "name", "widget": "string" },
-              { "label": "Extension", "name": "extension", "widget": "string" },
-              { "label": "Radio", "name": "radio", "widget": "string" },
-              { "label": "Office Level", "name": "office", "widget": "string" }
-            ]
-          }
+          "collapsed": false,
+          "fields": [
+            { "label": "Incident Control Officer", "name": "name", "widget": "string" },
+            { "label": "Extension", "name": "extension", "widget": "string" },
+            { "label": "Radio", "name": "radio", "widget": "string" },
+            { "label": "Office Level", "name": "office", "widget": "string" }
+          ]
         },
         {
           "label": "First Aiders",
           "name": "firstAiders",
           "widget": "list",
-          "field": {
-            "label": "First Aider",
-            "name": "firstAider",
-            "widget": "object",
-            "fields": [
-              { "label": "First Aider", "name": "name", "widget": "string" },
-              { "label": "Extension", "name": "extension", "widget": "string" },
-              { "label": "Radio", "name": "radio", "widget": "string" },
-              { "label": "Office", "name": "office", "widget": "string" }
-            ]
-          }
+          "collapsed": false,
+          "fields": [
+            { "label": "First Aider", "name": "name", "widget": "string" },
+            { "label": "Extension", "name": "extension", "widget": "string" },
+            { "label": "Radio", "name": "radio", "widget": "string" },
+            { "label": "Office", "name": "office", "widget": "string" }
+          ]
         } 
       ]  
     }
