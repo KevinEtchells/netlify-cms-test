@@ -1,9 +1,0 @@
-items:
-  - text: Menu One
-    url: "#page1"
-  - text: Menu Two
-    url: "#page2"
-  - text: Menu Three
-    url: "#page3"
-  - text: Blog
-    url: /blog
