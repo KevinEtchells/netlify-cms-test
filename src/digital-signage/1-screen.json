@@ -16,12 +16,16 @@
   ],
   "firstAiders": [
     {
-      "firstAider": {
-        "name": "FA1",
-        "extension": "4054",
-        "radio": "N/A",
-        "office": "3M"
-      }
+      "name": "FA1",
+      "extension": "N/A",
+      "radio": "Security",
+      "office": "N/A"
+    },
+    {
+      "name": "FA2",
+      "extension": "N/A",
+      "radio": "Security",
+      "office": "N/A"
     }
   ]
 }
