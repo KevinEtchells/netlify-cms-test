@@ -12,6 +12,13 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
+  - label: "-1 Screen"
+    folder: "src/ds"
+    create: "false"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Contact", name: "contact", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
