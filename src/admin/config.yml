@@ -9,42 +9,42 @@
   "show_preview_links": false,
   "collections": [
     {
-      "label": "-1 Screen",
-      "name": "minus1Screen",
-      "folder": "src/_data",
+      "label": "Digital Signage",
+      "name": "digitalSignage",
       "create": false,
       "extension": "json",
-      "fields": [
+      "files": [
         {
-          "label": "Title",
-          "name": "title",
-          "widget": "string",
-          "default": "-1 Screen"
-        },
-        {
-          "label": "Key Contacts",
-          "name": "keyContacts",
-          "widget": "list",
-          "collapsed": false,
+          "label": "-1 Screen",
+          "name": "minusOneScreen",
+          "file": "src/_data/minus1screen.json",
           "fields": [
-            { "label": "Incident Control Officer", "name": "name", "widget": "string" },
-            { "label": "Extension", "name": "extension", "widget": "string" },
-            { "label": "Radio", "name": "radio", "widget": "string" },
-            { "label": "Office Level", "name": "office", "widget": "string" }
+            {
+              "label": "Key Contacts",
+              "name": "keyContacts",
+              "widget": "list",
+              "collapsed": false,
+              "fields": [
+                { "label": "Incident Control Officer", "name": "name", "widget": "string" },
+                { "label": "Extension", "name": "extension", "widget": "string" },
+                { "label": "Radio", "name": "radio", "widget": "string" },
+                { "label": "Office Level", "name": "office", "widget": "string" }
+              ]
+            },
+            {
+              "label": "First Aiders",
+              "name": "firstAiders",
+              "widget": "list",
+              "collapsed": false,
+              "fields": [
+                { "label": "First Aider", "name": "name", "widget": "string" },
+                { "label": "Extension", "name": "extension", "widget": "string" },
+                { "label": "Radio", "name": "radio", "widget": "string" },
+                { "label": "Office", "name": "office", "widget": "string" }
+              ]
+            } 
           ]
-        },
-        {
-          "label": "First Aiders",
-          "name": "firstAiders",
-          "widget": "list",
-          "collapsed": false,
-          "fields": [
-            { "label": "First Aider", "name": "name", "widget": "string" },
-            { "label": "Extension", "name": "extension", "widget": "string" },
-            { "label": "Radio", "name": "radio", "widget": "string" },
-            { "label": "Office", "name": "office", "widget": "string" }
-          ]
-        } 
+        }
       ]  
     }
   ]
